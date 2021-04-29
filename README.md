@@ -26,3 +26,21 @@ Saving Community Lists<br/>
 Search and Filtering lists<br/>
 Super Cool Styling<br/>
 Sound Effects<br/>
+
+Routes:<br/>
+
+app.post(‘users/‘, userController.signup)<br/>
+
+app.post(‘users/login’, userController.login)<br/>
+
+app.get(‘users/verify’, userController.verify)<br/>
+
+app.get(‘lists/‘, listController.findAll)<br/>
+
+app.post(‘lists/‘, listController.create)<br/>
+
+app.post(‘lists/edit’, listController.update)<br/>
+
+app.delete(‘lists/:id’, listController.destroy)
+
+![image](https://user-images.githubusercontent.com/79672776/116503577-7494f280-a884-11eb-9c88-0864fbff7b67.png)
