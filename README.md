@@ -20,7 +20,7 @@ Delete and Edit.
 Shared Community list page.
 
 STRETCH GOALS:
-Saving Community Lists
-Search and Filtering lists
-Super Cool Styling 
-Sound Effects
+Saving Community Lists;
+Search and Filtering lists;
+Super Cool Styling;
+Sound Effects;
