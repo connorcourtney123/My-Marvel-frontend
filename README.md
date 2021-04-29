@@ -5,7 +5,7 @@
 ### Goal of this app is to have users create a shareable list of the MCU movies.
 ### They should be able to title, save, delete and share their lists.
 
-User Stories
+User Stories<br/>
 When I click Sign up, I should go to signup page.<br/>
 When I click Log in, I should be able to log in and view My List page.<br/>
 When I click Community List, I should see other users lists/viewing orders.<br/>
