@@ -39,7 +39,7 @@ app.get(‘lists/‘, listController.findAll)<br/>
 
 app.post(‘lists/‘, listController.create)<br/>
 
-app.post(‘lists/edit’, listController.update)<br/>
+app.put(‘lists/edit’, listController.update)<br/>
 
 app.delete(‘lists/:id’, listController.destroy)
 
