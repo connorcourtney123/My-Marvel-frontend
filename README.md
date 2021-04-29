@@ -48,9 +48,15 @@ app.delete(‘lists/:id’, listController.destroy)
 
 
 ##WIREFRAMES
+Community List Page
 ![image](https://user-images.githubusercontent.com/79672776/116503626-8ffffd80-a884-11eb-9d08-41dbae67b13c.png)
+Create List Page
 ![image](https://user-images.githubusercontent.com/79672776/116503637-95f5de80-a884-11eb-95ec-6551ed4938ce.png)
+Single List View
 ![image](https://user-images.githubusercontent.com/79672776/116503655-9b532900-a884-11eb-84a2-2c52e260f505.png)
+My Lists
 ![image](https://user-images.githubusercontent.com/79672776/116503665-a443fa80-a884-11eb-81f5-eb63d3dd8abc.png)
+Sign Up
 ![image](https://user-images.githubusercontent.com/79672776/116503670-aa39db80-a884-11eb-8f00-470dc7e0c068.png)
+Log In
 ![image](https://user-images.githubusercontent.com/79672776/116503672-ae65f900-a884-11eb-94d8-bb8594cdb8e1.png)
