@@ -44,7 +44,8 @@ app.put(‘lists/edit’, listController.update)<br/>
 app.delete(‘lists/:id’, listController.destroy)
 
 ##ERB
-![image](https://user-images.githubusercontent.com/79672776/116503577-7494f280-a884-11eb-9c88-0864fbff7b67.png)
+<img width="963" alt="Screen Shot 2021-04-29 at 11 48 51 AM" src="https://user-images.githubusercontent.com/79672776/116580077-07fc1100-a8e1-11eb-8161-738544f256cd.png">
+
 
 ##WIREFRAMES
 ![image](https://user-images.githubusercontent.com/79672776/116503626-8ffffd80-a884-11eb-9d08-41dbae67b13c.png)
