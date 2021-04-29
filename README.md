@@ -43,4 +43,13 @@ app.post(‘lists/edit’, listController.update)<br/>
 
 app.delete(‘lists/:id’, listController.destroy)
 
+##ERB
 ![image](https://user-images.githubusercontent.com/79672776/116503577-7494f280-a884-11eb-9c88-0864fbff7b67.png)
+
+##WIREFRAMES
+![image](https://user-images.githubusercontent.com/79672776/116503626-8ffffd80-a884-11eb-9d08-41dbae67b13c.png)
+![image](https://user-images.githubusercontent.com/79672776/116503637-95f5de80-a884-11eb-95ec-6551ed4938ce.png)
+![image](https://user-images.githubusercontent.com/79672776/116503655-9b532900-a884-11eb-84a2-2c52e260f505.png)
+![image](https://user-images.githubusercontent.com/79672776/116503665-a443fa80-a884-11eb-81f5-eb63d3dd8abc.png)
+![image](https://user-images.githubusercontent.com/79672776/116503670-aa39db80-a884-11eb-8f00-470dc7e0c068.png)
+![image](https://user-images.githubusercontent.com/79672776/116503672-ae65f900-a884-11eb-94d8-bb8594cdb8e1.png)
