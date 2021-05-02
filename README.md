@@ -29,19 +29,25 @@ Sound Effects<br/>
 
 Routes:<br/>
 
-app.post(‘users/‘, userController.signup)<br/>
+app.post(‘user/‘, userController.signup)<br/>
 
-app.post(‘users/login’, userController.login)<br/>
+app.post(‘user/login’, userController.login)<br/>
 
-app.get(‘users/verify’, userController.verify)<br/>
+app.get(‘user/verify’, userController.verify)<br/>
 
-app.get(‘lists/‘, listController.findAll)<br/>
+app.get(‘list/‘, listController.findAll)<br/>
 
-app.post(‘lists/‘, listController.create)<br/>
+app.post(‘list/‘, listController.create)<br/>
 
-app.put(‘lists/edit’, listController.update)<br/>
+app.put(‘list/edit’, listController.update)<br/>
 
-app.delete(‘lists/:id’, listController.destroy)
+app.delete(‘list/:id’, listController.destroy)<br/>
+
+app.get('list/details', listController.getDetails)<br/>
+
+app.get('user/lists', userController.getLists)<br/>
+
+
 
 ##ERB
 <img width="963" alt="Screen Shot 2021-04-29 at 11 48 51 AM" src="https://user-images.githubusercontent.com/79672776/116580077-07fc1100-a8e1-11eb-8161-738544f256cd.png">
