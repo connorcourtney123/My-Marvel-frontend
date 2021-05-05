@@ -35,7 +35,11 @@ app.post(‘user/login’, userController.login)<br/>
 
 app.get(‘user/verify’, userController.verify)<br/>
 
-app.get(‘list/‘, listController.findAll)<br/>
+app.get(‘list/‘, listController.getLists)<br/>
+
+app.get('list/author/:id', userController.getUsername)<br/>
+
+app.get('list/, listController.findAll)<br/>
 
 app.post(‘list/‘, listController.create)<br/>
 
@@ -45,8 +49,7 @@ app.delete(‘list/:id’, listController.destroy)<br/>
 
 app.get('list/details', listController.getDetails)<br/>
 
-app.get('user/lists', userController.getLists)<br/>
-
+app.get('movies/', movieController.findAll)<br/>
 
 
 ##ERB
